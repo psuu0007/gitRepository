@@ -19,10 +19,10 @@ public class ForFlowEx1 {
 		int sum = 0;
 		
 		// 합산 1~ 10까지의 숫자를 전부 더한 값은 얼마인가요?
-		for (int i = 0; i <= 1; i++) {
-			sum = sum + i;
+		for (int i = 0; i < 100; i++) {
+			sum = sum + (i+1);
 
-			System.out.println(i + " 까지의 합: " + sum);
+			System.out.println((i+1) + " 까지의 합: " + sum);
 		}
 		
 		System.out.println(sum);
