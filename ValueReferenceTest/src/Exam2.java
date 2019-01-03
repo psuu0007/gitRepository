@@ -5,7 +5,7 @@ public class Exam2 {
 		int result;
 		
 		x[0]++;
-		x[0] = x[0] + 1;
+//		x[0] = x[0] + 1;
 		y[0]++;
 		
 		result = x[0] + y[0];
