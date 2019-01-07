@@ -6,6 +6,7 @@ public class Hello {
 
 		System.out.println("hello java45");
 		
+		System.out.println("강사가 수정함");
 		
 	}
 
