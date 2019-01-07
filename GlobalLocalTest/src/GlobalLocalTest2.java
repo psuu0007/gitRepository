@@ -13,8 +13,8 @@ public class GlobalLocalTest2 {
 		System.out.println("localNum= " + localNum);
 	}
 	
-	System.out.println("instanceNum= " + instanceNum);
-	System.out.println("globalNum= " + globalNum);
-	System.out.println("localNum= " + localNum);
+//	System.out.println("instanceNum= " + instanceNum);
+//	System.out.println("globalNum= " + globalNum);
+//	System.out.println("localNum= " + localNum);
 	
 }
