@@ -1,4 +1,4 @@
-// class Å¬·¡½º¸í
+// class ì„ ì–¸ë¬¸
 public class Hello {
 
 	public static void main(String[] args) {
