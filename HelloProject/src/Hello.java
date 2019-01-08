@@ -8,6 +8,8 @@ public class Hello {
 		
 		System.out.println("강사가 수정함");
 		
+//		아 여기가 자바를 배울때 최초로 한 내용이다
+		
 	}
 
 }
