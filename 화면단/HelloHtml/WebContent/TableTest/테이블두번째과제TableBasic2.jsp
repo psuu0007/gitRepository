@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<table>
+<table >
 
 <tr>
 	<td width="300px" bgcolor="gray" ><strong>자유게시판</strong></td>
