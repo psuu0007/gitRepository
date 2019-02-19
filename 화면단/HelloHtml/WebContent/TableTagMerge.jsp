@@ -24,7 +24,7 @@
 		<tr>
 			<td>구분</td>
 			<td>S석</td>
-			<td align="right">VIP</td>
+			<td style="text-align: left; font-weight: bold;">VIP</td>
 		</tr>
 		<tr>
 			<td>성인</td>
@@ -54,9 +54,6 @@
 			<td>17:00시 - 19:00시</td>
 		</tr>
 	</table>	
-		
-		
-		
 		
 </body>
 </html>
