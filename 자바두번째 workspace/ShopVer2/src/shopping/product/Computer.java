@@ -6,9 +6,9 @@ public class Computer extends Product{
 		super(200);
 	}
 	
-	public String toString() {
-		return "Computer";
-	}
+//	public String toString() {
+//		return "Computer";
+//	}
 	
 	public String myProductName() {
 		return "Computer"; 

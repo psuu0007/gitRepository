@@ -11,6 +11,7 @@ public class Buyer {
 	public void buy(Tv tv) {
 		if(money < tv.price) {
 			System.out.println("잔액이 부족하여 물건을 살 수 없습니다.");
+			System.out.println("부족한 금액: " + (tv.price - money));
 			return;
 		}
 		
@@ -25,6 +26,7 @@ public class Buyer {
 	public void buy(Computer computer) {
 		if(money < computer.price) { //100 < 200
 			System.out.println("잔액이 부족하여 물건을 살 수 없습니다.");
+			System.out.println("부족한 금액: " + (computer.price - money));
 			return;
 		}
 
