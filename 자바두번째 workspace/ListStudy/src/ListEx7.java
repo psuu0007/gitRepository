@@ -8,29 +8,37 @@ public class ListEx7 {
 		ListUtil lu = new ListUtil();
 		ArrayList list = new ArrayList();
 		
+		list.add(new TeamPerson());
 		list.add(1);
-		list.add(2);
+		list.add(01011112222);
 		list.add("당연하지:");
 		
-		lu.arrayListAllPrint(list, "list");
+//		((TeamPerson)list.get(0)).printInfo();
 		
-//		백업 복제
-//		ArrayList listCopy = list;
-		ArrayList listCopy = null;
-		listCopy = new ArrayList();		
+		for (int i = 0; i < list.size(); i++) {
+			((TeamPerson)list.get(i)).printInfo();
+		}
 		
-		listCopy.add(list.get(0));
-		listCopy.add(list.get(1));
-		listCopy.add(list.get(2));
 		
-		lu.arrayListAllPrint(listCopy, "listCopy");
+//		lu.arrayListAllPrint(list, "list");
 		
-		listCopy.add("잘못된 복제");
-		list.remove(0);
-
-		// 3
-		lu.arrayListAllPrint(list, "list");
-		lu.arrayListAllPrint(listCopy, "listCopy");
+////		백업 복제
+////		ArrayList listCopy = list;
+//		ArrayList listCopy = null;
+//		listCopy = new ArrayList();		
+//		
+//		listCopy.add(list.get(0));
+//		listCopy.add(list.get(1));
+//		listCopy.add(list.get(2));
+//		
+//		lu.arrayListAllPrint(listCopy, "listCopy");
+//		
+//		listCopy.add("잘못된 복제");
+//		list.remove(0);
+//
+//		// 3
+//		lu.arrayListAllPrint(list, "list");
+//		lu.arrayListAllPrint(listCopy, "listCopy");
 		
 
 	}
